@@ -1,0 +1,15 @@
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\bin\Debug\QuizGamer.exe.config
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\bin\Debug\QuizGamer.exe
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\bin\Debug\QuizGamer.pdb
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.csprojAssemblyReference.cache
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.Properties.Resources.resources
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.frmMenu.resources
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.csproj.GenerateResource.cache
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.csproj.CoreCompileInputs.cache
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.csproj.CopyComplete
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.exe
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.pdb
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.View.frmCategoria.resources
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.View.frmListaJogo.resources
+C:\Users\GAMER\Desktop\QuizGamer\QuizGamer\obj\Debug\QuizGamer.View.frmJogo.resources

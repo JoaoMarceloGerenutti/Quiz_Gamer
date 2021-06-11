@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Naruto Ninja Storm 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Naruto Ninja Storm 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Sims" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Sims.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enter the Gungeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enter the Gungeon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chefe Cuphead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chefe Cuphead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Acerto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Acerto.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Assassins Creed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assassins Creed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NieR Automata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NieR Automata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dr Stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dr Stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kimi no Na wa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kimi no Na wa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Demon Slayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Demon Slayer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dicas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dicas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tensei Shitara Slime Datta Ken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tensei Shitara Slime Datta Ken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tenki no Ko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tenki no Ko.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Highschool DxD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Highschool DxD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Competitivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Competitivo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Re Zero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Re Zero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="League of Legends" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\League of Legends.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super Mario 3D World" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super Mario 3D World.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cadeado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cadeado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stardew Valley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stardew Valley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fall Guys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fall Guys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Final Fantasy XV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Final Fantasy XV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Noragami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Noragami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Secundario Death Note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secundario Death Note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CSGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CSGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mulheres" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mulheres.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Secundario Fairy Tail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secundario Fairy Tail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Celeste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Celeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chefes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chefes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sonic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sonic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Genshin Impact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genshin Impact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Street Fighter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Street Fighter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Devil May Cry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Devil May Cry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brawlhalla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brawlhalla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Star Wars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Star Wars.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="God of War" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\God of War.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bleach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bleach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Watch Dogs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Watch Dogs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hollow Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hollow Knight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Metroid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Metroid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Life is Strange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Life is Strange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Violet Evergarden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Violet Evergarden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personagem Principal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Personagem Principal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super Meat Boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super Meat Boy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horizon Zero Dawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Horizon Zero Dawn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dragon Ball FighterZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon Ball FighterZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monogatari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monogatari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Bind of Isaac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Bind of Isaac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="One Punch Man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One Punch Man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Overlord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Overlord.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="No Game No Life" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\No Game No Life.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled Goose Game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled Goose Game.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chefe Portal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chefe Portal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Final Fantasy VII" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Final Fantasy VII.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Secundario Devil May Cry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secundario Devil May Cry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Voltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voltar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pokemon Ruby &amp; Sapphire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pokemon Ruby &amp; Sapphire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Batman Arkhan Asylum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Batman Arkhan Asylum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valorant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Valorant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personagens Secundários" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Personagens Secundários.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Konosuba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Konosuba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boku no Hero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boku no Hero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Superhot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Superhot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Haikyuu!!" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Haikyuu!!.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bomberman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bomberman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yandere Simulator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yandere Simulator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Soul Eater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soul Eater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tom Clancys Rainbow Six Siege" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tom Clancys Rainbow Six Siege.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fechar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fechar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Legend Of Zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Legend Of Zelda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Starbound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Starbound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Secundario Mortal Kombat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secundario Mortal Kombat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dragon Ball Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon Ball Z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Undertale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Undertale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Borderlands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Borderlands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PUBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PUBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super Smash Bros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super Smash Bros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Five Night at Freddys" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Five Night at Freddys.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spyro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spyro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Love is War" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Love is War.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shokugeki no Souma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shokugeki no Souma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="My Hero Academia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\My Hero Academia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Witcher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Witcher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nisekoi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nisekoi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lixeira" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lixeira.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chefe Crash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chefe Crash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trasparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trasparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Principal Pokemon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Principal Pokemon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The Last of Us" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Last of Us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Persona 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Persona 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Attack On Titan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Attack On Titan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="One Piece" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\One Piece.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Halo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Halo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Risk of Rain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Risk of Rain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Akame ga Kill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Akame ga Kill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pokemon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pokemon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minecraft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minecraft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Death Note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death Note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fortnite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fortnite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silent Hill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silent Hill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sword Art Online" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sword Art Online.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Overwatch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Overwatch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tate no Yuusha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tate no Yuusha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Secundario Sonic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secundario Sonic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Code Geass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Code Geass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mortal Kombat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mortal Kombat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearthstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearthstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fairy Tail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fairy Tail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Far Cry 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Far Cry 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chefe Undertale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chefe Undertale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Detroit Become Human" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Detroit Become Human.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wizard of Legend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wizard of Legend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Portal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dead Cells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dead Cells.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shingeki no Kyojin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shingeki no Kyojin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gamer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gamer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dota 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dota 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Metal Gear Solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Metal Gear Solid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steins Gate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steins Gate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black Clover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black Clover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Erro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Erro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Secundario NieR Automata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secundario NieR Automata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estrela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Estrela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kyoukai no Kanata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyoukai no Kanata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fez" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fez.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Little Nightmares" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Little Nightmares.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rocket League" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rocket League.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jujutsu Kaisen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jujutsu Kaisen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fate Extella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fate Extella.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shovel Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shovel Knight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Darling In The FranXX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Darling In The FranXX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jogos Populares" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jogos Populares.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kingdom Hearts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kingdom Hearts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Terraria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Terraria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="World Trigger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\World Trigger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

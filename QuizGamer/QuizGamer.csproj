@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34C67001-2AA7-417F-99E8-0AFA5B2A4149}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuizGamer</RootNamespace>
+    <AssemblyName>QuizGamer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\InnerVisual-Bunifu_UI_v1.5.3\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\FormataQuantidade.cs" />
+    <Compile Include="Model\ManipuladorImagem.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmCategoria.Designer.cs">
+      <DependentUpon>frmCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmJogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmJogo.Designer.cs">
+      <DependentUpon>frmJogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmListaJogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmListaJogo.Designer.cs">
+      <DependentUpon>frmListaJogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmCategoria.resx">
+      <DependentUpon>frmCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmJogo.resx">
+      <DependentUpon>frmJogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmListaJogo.resx">
+      <DependentUpon>frmListaJogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jogos Populares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personagem Principal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Competitivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chefes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personagens Secundários.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pixels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Assassins Creed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Borderlands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Detroit Become Human.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Devil May Cry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final Fantasy XV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Halo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kingdom Hearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Persona 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pokemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sonic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spyro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Sims.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fall Guys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\League of Legends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valorant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dicas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estrela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trasparente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gamer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overwatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Street Fighter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mortal Kombat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tom Clancys Rainbow Six Siege.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dota 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Super Smash Bros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fortnite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PUBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dragon Ball FighterZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearthstone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brawlhalla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rocket League.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black Clover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Haikyuu!!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jujutsu Kaisen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shokugeki no Souma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shingeki no Kyojin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No Game No Life.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tate no Yuusha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monogatari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Re Zero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noragami.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tensei Shitara Slime Datta Ken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overlord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kimi no Na wa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steins Gate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Code Geass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minecraft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Terraria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dead Cells.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stardew Valley.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Starbound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enter the Gungeon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undertale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Bind of Isaac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Celeste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shovel Knight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Risk of Rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wizard of Legend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Super Meat Boy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pokemon Ruby &amp; Sapphire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NieR Automata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cadeado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superhot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hollow Knight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Little Nightmares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Metal Gear Solid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Metroid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Last of Us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Witcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Principal Pokemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\God of War.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Watch Dogs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Life is Strange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled Goose Game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fate Extella.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horizon Zero Dawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yandere Simulator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Naruto Ninja Storm 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chefe Portal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chefe Crash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silent Hill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Five Night at Freddys.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Far Cry 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Batman Arkhan Asylum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chefe Undertale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Super Mario 3D World.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chefe Cuphead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star Wars.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bomberman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final Fantasy VII.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soul Eater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tenki no Ko.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death Note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dragon Ball Z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Genshin Impact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boku no Hero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sword Art Online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love is War.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoukai no Kanata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Akame ga Kill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Highschool DxD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fairy Tail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Darling In The FranXX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Violet Evergarden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nisekoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Konosuba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mulheres.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secundario NieR Automata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acerto.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Erro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lixeira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Legend Of Zelda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secundario Sonic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secundario Devil May Cry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secundario Mortal Kombat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Demon Slayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dr Stone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\My Hero Academia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\One Punch Man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attack On Titan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secundario Death Note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\One Piece.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bleach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secundario Fairy Tail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\World Trigger.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
